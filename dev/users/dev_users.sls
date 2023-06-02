@@ -1,4 +1,4 @@
-user_rafael:
+user_barozzidev:
   user.present:
     - name: barozzidev
     - fullname: Dev Barozzi
@@ -8,7 +8,7 @@ user_rafael:
     - groups:
       - wheel
 
-rafael_key:
+barozzidev_key:
   ssh_auth.present:
     - name: barozzidev
     - user: barozzidev
