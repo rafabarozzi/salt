@@ -1,4 +1,5 @@
-'*':
-
-'web*':
-  - apache
+base:
+  '*':
+    - users
+  'web*':
+    - apache
